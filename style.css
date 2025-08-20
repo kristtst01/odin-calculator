@@ -1,0 +1,27 @@
+.container {
+  max-width: 400px;
+}
+
+.display {
+  padding: 15px;
+  border: solid black 1px;
+  text-align: right;
+}
+
+.operators {
+  display: flex;
+}
+.operators button {
+  font-size: 60px;
+  padding: 15px;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  font-size: 50px;
+  padding: 20px;
+}
