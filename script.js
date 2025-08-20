@@ -2,8 +2,6 @@ const display = document.querySelector(".display");
 
 const digits = document.querySelector(".digits");
 
-let firstNumber;
-
 digits.addEventListener("click", (event) => {
   let digit = event.target;
   currentDisplay = display.textContent;
@@ -12,7 +10,6 @@ digits.addEventListener("click", (event) => {
   } else {
     display.textContent += digit.textContent;
   }
-  firstNumber = currentDisplay;
 });
 
 function add(a, b) {
